@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -151,7 +153,7 @@
   </div>
 
   <!--MODAL CART-->
-  <div class="bg-black/50 w-full h-full fixed left-0 top-0 z-[99] items-center hidden justify-center">
+  <div class="bg-black/50 w-full h-full fixed left-0 top-0 z-[99] items-center hidden justify-center" id="cart-modal">
     <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
       <h2 class="text-center font-bold text-2xl">Meu Carrinho</h2>
 
@@ -179,6 +181,8 @@
       <i class="fa fa-cart-plus text-lg text-white"></i>
     </button>
   </footer>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
