@@ -249,14 +249,8 @@
   .left-0 {
     left: calc(var(--spacing) * 0);
   }
-  .left-\[1\] {
-    left: 1;
-  }
   .left-\[15vw\] {
     left: 15vw;
-  }
-  .left-\[25vw\] {
-    left: 25vw;
   }
   .isolate {
     isolation: isolate;
@@ -519,9 +513,6 @@
   .min-h-screen {
     min-height: 100vh;
   }
-  .w-1 {
-    width: calc(var(--spacing) * 1);
-  }
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
@@ -531,14 +522,8 @@
   .w-32 {
     width: calc(var(--spacing) * 32);
   }
-  .w-\[50vw\] {
-    width: 50vw;
-  }
   .w-\[70vw\] {
     width: 70vw;
-  }
-  .w-\[vw\] {
-    width: vw;
   }
   .w-full {
     width: 100%;
@@ -1182,9 +1167,6 @@
   }
   .bg-\[var\(--my_variable\)\] {
     background-color: var(--my_variable);
-  }
-  .bg-black {
-    background-color: var(--color-black);
   }
   .bg-black\/50 {
     background-color: color-mix(in oklab, var(--color-black) 50%, transparent);
